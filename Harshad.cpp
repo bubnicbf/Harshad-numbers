@@ -29,6 +29,6 @@ int main( ) {
    int start = 1001 ;
    while ( ! ( isHarshad ( start ) ) ) 
       start++ ;
-   std::cout << "The smallest Harshad number greater than 1000 : " << start << '\n' ;
+   std::cout << "The smallest Harshad number greater than 1000: " << start << '\n' ;
    return 0 ;
 }
